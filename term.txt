@@ -1,0 +1,2 @@
+level: The height above ground for a meteorological measurement instrument, in meters (m).
+standard_name: THe standard name for the observed property as listed in the CF convention.
