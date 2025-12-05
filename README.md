@@ -13,8 +13,7 @@ Identical to the object with the same name in OGC-EDR v1.2.
 
 
 ## Examples
-
-#### 
+ 
 ```json
 {
   "type": "CoverageCollection",
@@ -1010,3 +1009,4 @@ Identical to the object with the same name in OGC-EDR v1.2.
   }
 }
 ```
+
