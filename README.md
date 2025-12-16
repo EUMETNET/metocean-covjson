@@ -2,15 +2,44 @@
 
 ## Terms for prefix: metocean
 
-### metocean:level 
+### metocean:level
+
+Type: number
+
 The height above ground for a meteorological measurement instrument, in meters (m).
 
 ### metocean:standard_name
+
+Type: string
+
 The standard name for the observed property as listed in the CF convention.
 
 ### metocean:measurementType
-Identical to the object with the same name in OGC-EDR v1.2.
 
+Type: object
+
+Identical to the object for the property `measurementType` in OGC-EDR v1.2, with the following schema:
+
+```json
+type: object
+title: Parameter measurement approach
+description: Approach to calculating the data values
+required:
+  - method
+properties:
+  method:
+    type: string
+    examples: 
+      - mean
+  duration:
+    type: string
+    title: Measurement time duration
+    description: The time duration that the value was calculated for as an RFC3339
+       duration value.  If the method value is instantaneous this value is
+       not required.
+    examples: 
+      - PT10M
+```
 
 ## Examples
  
@@ -1009,4 +1038,5 @@ Identical to the object with the same name in OGC-EDR v1.2.
   }
 }
 ```
+
 
