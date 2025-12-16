@@ -20,7 +20,7 @@ Type: object
 
 Identical to the object for the property `measurementType` in OGC-EDR v1.2, with the following schema:
 
-```json
+```yaml
 type: object
 title: Parameter measurement approach
 description: Approach to calculating the data values
@@ -1038,5 +1038,6 @@ properties:
   }
 }
 ```
+
 
 
