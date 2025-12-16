@@ -18,7 +18,7 @@ The standard name for the observed property as listed in the CF convention.
 
 Type: object
 
-Identical to the object for the property `measurementType` in OGC-EDR v1.2, with the following schema:
+Identical to the object for the property `measurementType` in OGC API - Environmental Data Retrieval v1.2, with the following schema:
 
 ```yaml
 type: object
@@ -1038,6 +1038,7 @@ properties:
   }
 }
 ```
+
 
 
 
